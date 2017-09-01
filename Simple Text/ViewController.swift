@@ -21,16 +21,29 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        searchController.searchResultsUpdater = self
-        searchController.dimsBackgroundDuringPresentation = false
-        definesPresentationContext = true
-        table.tableHeaderView = searchController.searchBar
+        updateTheme()
+        
+        
+        
+        
         
         let addButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addNote))
         let settingsButton = UIBarButtonItem(barButtonSystemItem: .trash, target: self, action: #selector(goToSettings))
         self.navigationItem.rightBarButtonItem = addButton
         self.navigationItem.leftBarButtonItem = settingsButton
         load()
+    }
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        
+        searchController.searchResultsUpdater = self
+        searchController.dimsBackgroundDuringPresentation = false
+        definesPresentationContext = true
+        table.tableHeaderView = searchController.searchBar
+    }
+    
+    func updateTheme() {
+    
     }
     
     func updateSearchResults(for searchController: UISearchController) {

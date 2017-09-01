@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B526204B1F585303009CDDD9 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = B526204A1F585303009CDDD9 /* Note.swift */; };
+		B526204F1F597CBB009CDDD9 /* Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B526204E1F597CBB009CDDD9 /* Themes.swift */; };
 		B52C832B1F49326C00C813EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52C832A1F49326C00C813EB /* AppDelegate.swift */; };
 		B52C832D1F49326C00C813EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52C832C1F49326C00C813EB /* ViewController.swift */; };
 		B52C83301F49326C00C813EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B52C832E1F49326C00C813EB /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		B526204A1F585303009CDDD9 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Note.swift; path = ../Note.swift; sourceTree = "<group>"; };
+		B526204E1F597CBB009CDDD9 /* Themes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Themes.swift; path = ../Themes.swift; sourceTree = "<group>"; };
 		B52C83271F49326C00C813EB /* Simple Text.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Text.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52C832A1F49326C00C813EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B52C832C1F49326C00C813EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,8 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				B52C832A1F49326C00C813EB /* AppDelegate.swift */,
-				B526204A1F585303009CDDD9 /* Note.swift */,
+				B526204E1F597CBB009CDDD9 /* Themes.swift */,
 				B52C832C1F49326C00C813EB /* ViewController.swift */,
+				B526204A1F585303009CDDD9 /* Note.swift */,
 				B5D5F2081F567E1000A0DB76 /* SettingsViewController.swift */,
 				B52C833C1F4AB00200C813EB /* DetailViewController.swift */,
 				B5D5F2061F54734D00A0DB76 /* CustomCell.swift */,
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B526204F1F597CBB009CDDD9 /* Themes.swift in Sources */,
 				B52C833D1F4AB00200C813EB /* DetailViewController.swift in Sources */,
 				B52C832D1F49326C00C813EB /* ViewController.swift in Sources */,
 				B5D5F2071F54734D00A0DB76 /* CustomCell.swift in Sources */,

@@ -9,8 +9,5 @@
 import UIKit
 
 class SettingsViewController: UIViewController {
-    
-    @IBOutlet weak var typeOnOpenSwitch: UISwitch!
-    @IBAction func typeOnOpenSwitchChanged(_ sender: UISwitch) {
-    }
+  
 }

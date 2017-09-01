@@ -102,24 +102,12 @@
                     <view key="view" contentMode="scaleToFill" id="iD3-cD-CKU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VIX-iX-aSS">
-                                <rect key="frame" x="194" y="168" width="51" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="typeOnOpenSwitchChanged:" destination="lxr-Om-ya4" eventType="valueChanged" id="1pe-jJ-4i6"/>
-                                </connections>
-                            </switch>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <connections>
-                        <outlet property="typeOnOpenSwitch" destination="VIX-iX-aSS" id="jfR-n0-bKG"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ayp-qC-box" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1076" y="844"/>
+            <point key="canvasLocation" x="1076" y="843.32833583208401"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="jkr-An-fSP">
